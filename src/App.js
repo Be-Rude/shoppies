@@ -1,20 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Title from "./components/title"
+import Search from "./components/searchBar"
+import Results from './components/results'
 
 function App() {
   return (
     <div className="App">
       
         <Title />
+     
       
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <br />
+        <br />
+        <Search />
+        <br />
+        <Results />
         <a
           className="App-link"
           href="https://reactjs.org"
