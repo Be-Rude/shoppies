@@ -7,12 +7,12 @@ export default function Results() {
   return (
     <Container>
       <Row>
-        <Col xs={6}>xs=6</Col>
-        
-      </Row>
-      <Row>
-        <Col xs={6}>xs=6</Col>
-
+        <Col xs={6}>
+          xs=6
+        </Col>
+        <Col xs={6}>
+          xs=6
+          </Col>
       </Row>
     </Container >
   )

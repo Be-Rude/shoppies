@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Title from "./components/title"
 import Search from "./components/searchBar"
 import Results from './components/results'
+import Reset from './components/reset'
 
 function App() {
   return (
@@ -20,15 +21,9 @@ function App() {
         <Search />
         <br />
         <Results />
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React?
-        </a>
+        
       </header>
+      <Reset />
     </div>
   );
 }
