@@ -1,9 +1,7 @@
-.title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: #1c507c
+
+#title {
+   margin-top: 40px;
+    color: #1c507c
 }
 
 .logo {

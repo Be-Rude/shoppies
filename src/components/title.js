@@ -6,11 +6,11 @@ import { Container, Row } from "react-bootstrap";
 export default function Title() {
 
   return (
-    <Container className="title">
+    <Container>
     <Row>
         <img className="logo" src={require("../img/LogoMakr_9b61vY.png")} alt=""/>
    
-    <h2>
+    <h2 id="title">
           Welcome to the Shoppie Award Nominations!
     </h2>
       </Row>
