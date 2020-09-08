@@ -8,7 +8,7 @@ export default function Search() {
 
     <Form >
       <Form.Group >
-        
+        <Form.Label>Search</Form.Label>
         <Row>
           
         <Form.Control size="lg" type="text" placeholder="Search IMDB" />
@@ -19,7 +19,7 @@ export default function Search() {
           </Col>
         </Row>
       </Form.Group>
-      <Form.Label>Search</Form.Label>
+      
     </Form >
     
     )
